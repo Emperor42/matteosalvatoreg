@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html style="background-color:black;">
+<title>MSCO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="w3-theme-black.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<body>
+
+<!--to show the resource not found error use onclick="document.getElementById('id01').style.display='block'" on the link-,make internal referance to all of the different scripts which are being used->
+
+<!-- Modal All  Failure-->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-8 w3-animate-top">
+      <header class="w3-container w3-theme-l1">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn">X</span>
+        <h1>Désolé</h1>
+        <h2>Sorry</h2>
+      </header>
+      <div class="w3-padding">
+        <b><p>La page n'est pas active maintenant</p></b>
+        <p>The page is not active currently</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p class="w3-center"><img src="favicon.ico"></img></p>
+      </footer>
+    </div>
+</div>
+
+<!-- Side Navigation -->
+<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none;" id="mySidenav">
+  <img style="height:128px;width:128px;"src="Logo.png"></img>
+  <a href="javascript:void(0)" onclick="document.getElementById('id01').style.display='block'">Français</a><!--"softworks.html"-->
+  <a href="indexE.html" >English</a><!--"studio.html"-->
+  <a href="javascript:void(0)" onclick="document.getElementById('id01').style.display='block'">Italiano</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-theme" >Sortie|Scura|Exit <i class="fa fa-remove"></i></a>
+  <sub><sub><sub><sub><sub><sub>Using w3.css, w3-theme-black.css and fa fa fonts</sub></sub></sub></sub></sub></sub>
+</nav>
+
+<!--u -->
+
+<ul class="w3-navbar w3-theme"style="position:fixed; min-width:100%; z-index:15;">
+  <li class="w3-left"><a class="w3-padding-16" onclick="w3_open()" href="javascript:void(0)"><img src="menu.ico"></img></a></li>
+  <li class="w3-right"><a class="w3-padding-16" href="index.html"><img src="favicon.ico"></img></a></li>
+</ul>
+<br>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader" style="">
+  <br>
+ 
+</header>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+	<div class="w3-half" style="background-color:black;">
+	  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+		  <h4 style="color:white;">Francais</h4><br>
+		  <img src="French.png" alt="Francais" style="width:350px;height:150px;"></img>
+		  <p>MSCO</p>
+		  <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" href="" style="font-weight:900;">Entre</button>
+	  </div>
+	</div>
+
+	<div class="w3-half" style="background-color:black;">
+	  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+		  <h4 style="color:white;">English</h4><br>
+		  <img src="English.png" alt="Francais" style="width:350px;height:150px;"></img>
+		  <p>Matteo Salvatore Company</p>
+		  <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" style="font-weight:900;"><a href="indexE.html">Enter</a></button>
+	  </div>
+	</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16">
+<div class="w3-center">
+  <img src="favicon.ico"></img>
+  <p><sub>Compaign de Matto Salvatore|Compagina di Matteo Salvatore|Matteo Salvatore Company 2017</sub></p>
+ </div>
+</footer>
+
+</body>
+<!-- Script for Sidenav, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+    var x = document.getElementById("mySidenav");
+    x.style.width = "100%";
+    x.style.textAlign = "center";
+    x.style.fontSize = "50px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+      activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-dark-grey";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+        x.previousElementSibling.className =
+        x.previousElementSibling.className.replace(" w3-dark-grey", "");
+    }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+slideIndex = slideIndex + n;
+showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      document.getElementById("demoprgr").innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>
