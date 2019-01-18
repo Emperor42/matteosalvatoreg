@@ -1,0 +1,84 @@
+*{
+	box-sizing:border-box;
+	margin-bottom:1%;
+}
+
+.card{
+	border: 1px solid black;
+	background-color:white;
+	box-shadow: 3px 9px;
+	width: 100%;
+	display:inline-block;
+	position:relative;
+	text-align:center;
+}
+
+.card p {
+	margin:10px;
+	text-align:left;
+}
+
+.card button {
+	text-align:center;
+}
+.card button a {
+	color:white;
+}
+
+/* Clear floats after the columns */
+.base:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.full {
+	  float: left;
+	  grid-column: 1 / span 4;
+}
+
+.half1{
+	  float: left;
+	  grid-column: 1 / span 2;
+}
+
+.half2{
+	  float: left;
+	  grid-column: 3 / span 2;
+}
+
+.quarter1 {
+	  float: left;
+	  grid-column: 1 / span 1;
+}
+
+.quarter2 {
+	  float: left;
+	  grid-column: 2 / span 1;
+}
+
+.quarter3 {
+	  float: left;
+	  grid-column: 3 / span 1;
+}
+
+.quarter4 {
+	  float: left;
+	  grid-column: 4 / span 1;
+}
+
+body{
+	background-color:grey;
+	text-align:center;
+	display: grid;
+	grid-gap: 10px;
+}
