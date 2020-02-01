@@ -1,67 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Matthew Salvatore Giancola</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="baseline.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<base href="fail.html" target="_blank">
+  <title>Matthew Salvatore Giancola</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="baseline.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-		  <a class="navbar-brand" href="#">Matthew Salvatore Giancola</a>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs">
+	<li class="nav-item">
+	  <a class="nav-link active" data-toggle="tab" href="#msg">Matthew Salvatore Giancola</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" data-toggle="tab" href="#ski">Skills</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" data-toggle="tab" href="#exp">Experience</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#edu">Education</a>
+	  </li>
+	  <li class="nav-item" hidden>
+		<a class="nav-link" data-toggle="tab" href="#pro">Projects</a>
+	  </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+	<div class="tab-pane active" id="msg">
+		<div class="jumbotron text-center jumbotron-fluid" style="margin-bottom:0">
+			<div class= "container">
+				<h1>Matthew Salvatore Giancola</h1>
+				<p>Software Engineering Student</p> 
+			</div>
 		</div>
-		<ul class="nav navbar-nav">
-		  <li><a href="#">Skills</a></li>
-		  <li><a href="#">Education</a></li>
-		  <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
-		</ul>
-	  </div>
-	</nav>
-	
-	<!-- Modal Elements -->
-
-	<!-- Modal -->
-	<div id="myModal" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-
-		<!-- Modal content-->
-		<div class="modal-content">
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-			<h4 class="modal-title">Modal Header</h4>
-		  </div>
-		  <div class="modal-body">
-			<form action="/action_page.php">
-			  <div class="form-group">
-				<label for="email">Email address:</label>
-				<input type="email" class="form-control" id="email">
-			  </div>
-			<div class="form-group">
-				<label for="name">Name:</label>
-				<input type="text" class="form-control" id="name">
-			  </div>
-			  <div class="checkbox">
-				<label><input type="checkbox"> Remember me</label>
-			  </div>
-			  <button type="submit" class="btn btn-default">Submit</button>
-			</form>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		  </div>
+		<div class="container" style="margin-top:30px">
+			<!-- Tab panes -->
+			<div class="card-columns">
+				<div class="card">
+					<div class="card-header text-center">Who?</div>
+					<div class="card-body">
+						<p>I'm A Software Engineering student from Concordia University who is currently looking for an Internship/Part/Full time work in the industry while he completes his B.Eng</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Where?</div>
+					<div class="card-body">
+						<p>I'm currently based in Montreal, Quebec, Canada and grew up in Niagara-On-The-Lake Ontairo Canada but have dual citizenship (Canadian & Italian)</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">What?</div>
+					<div class="card-body">
+						<p>I have worked with a variety of languages including <strong>Java</strong> (Since 2009), <strong>Python</strong> (Since 2015), <strong>C/C++</strong> (Since 2015), <strong>HTML, CSS, JS, PHP</strong> (Since 2007), <strong>Go</strong> (Since 2016) focusing generally on <strong>AI</strong> (NLP & Pattern Recognition) I've also begun working on network security<br>I have also worked with <strong>GIT, MongoDB, Wordpress Linux (Arch & Debian-based)</strong><br>I am also able to work in several languages: <strong>English</strong>, <strong>French</strong> and <strong>Italian</strong></p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">When?</div>
+					<div class="card-body">
+						<p>At earliest, will work weekends and/or nights, remotly so long as i am able to complete my degree, which should be done in 2022</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Why?</div>
+					<div class="card-body">
+						<p>I see myself as ambitious and am looking for oppurtunities to expand my knowledge base and gain practical experience, long term I'd like my own company but would very much like to contribute with others until I've prepared for that event!</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
-	  </div>
 	</div>
+	<div class="tab-pane fade" id="ski">
+		<div class="jumbotron text-center jumbotron-fluid" style="margin-bottom:0">
+			<div class= "container">
+				<h1>My Skills</h1>
+				<p>I have experience with several languages and other beneficial skills</p> 
+			</div>
+		</div>
+		<div class="container" style="margin-top:30px">
+			<!-- Tab panes -->
+			<div class="card-columns">
+				<div class="card">
+					<div class="card-header text-center">Java</div>
+					<div class="card-body">Self-Taught, High School, University since 2009</div>
+					<div class="card-footer text-center">Programming Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">C/C++</div>
+					<div class="card-body">Self-Taught since 2015</div>
+					<div class="card-footer text-center">Programming Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Python</div>
+					<div class="card-body">Self-Taught, High School, University since 2015</div>
+					<div class="card-footer text-center">Programming Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">HTML/CSS/JS</div>
+					<div class="card-body">Self-Taught, University since 2007, Up-to-date on HTML5 CSS3</div>
+					<div class="card-footer text-center">Programming Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Go</div>
+					<div class="card-body">Self-Taught since 2016 have used in pattern recognition and AI projects</div>
+					<div class="card-footer text-center">Programming Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">PHP</div>
+					<div class="card-body">Self-Taught, University since 2014 have worked mainly in wordpress context</div>
+					<div class="card-footer text-center">Programming Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">GIT</div>
+					<div class="card-body">Self-Taught, have worked with both on school and private projects</div>
+					<div class="card-footer text-center">Version Control System</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Linux</div>
+					<div class="card-body">Have worked with Arch and Debian based enviroments, Arch is main driver on PC</div>
+					<div class="card-footer text-center">Operating System</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">English</div>
+					<div class="card-body">Native</div>
+					<div class="card-footer text-center">Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">French</div>
+					<div class="card-body">Good Speaking, Fluent Reading & Writing</div>
+					<div class="card-footer text-center">Language</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Italian</div>
+					<div class="card-body">Fair Speaking, Fluent Reading & Writing</div>
+					<div class="card-footer text-center">Language</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane fade" id="exp">
+		<div class="jumbotron text-center jumbotron-fluid" style="margin-bottom:0">
+			<div class= "container">
+				<h1>My Experience</h1>
+				<p>Software & general work experience</p> 
+			</div>
+		</div>
+		<div class="container" style="margin-top:30px">
+			<!-- Tab panes -->
+			<div class="card-columns">
+				<div class="card">
+					<div class="card-header text-center">CONUHACKS V Hackathon</div>
+					<div class="card-body">
+						<ul>
+							<li>Hackathon in <strong>Montreal, Quebec</strong></li>
+							<li>Team developed a work gamification solution</li>
+							<li>Responsiable for backend</li>
+							<li>Used NodeJS (Express), MongoDB Atlas, & PUG template engine</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center">Demo Team Member</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">ConcordAI Hackathon</div>
+					<div class="card-body">
+						<ul>
+							<li>Hackathon in <strong>Montreal, Quebec</strong></li>
+							<li>Team developed a computer vision solution</li>
+							<li>Recieved third place for soluton of over 30 teams</li>
+							<li>Used FaceNet & Keras</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center">3rd Place Team Member</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">ConcordAI Winter Cohort</div>
+					<div class="card-body">
+						<ul>
+							<li>13 Week Internship Program in <strong>Montreal, Quebec</strong></li>
+							<li>Worked on NLU, database and debugging frontend</li>
+							<li>Used Spacy,NumPY & Cakechat</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center">Funartech Team Member</div>
+				</div>
+				<div class="card">
+					<div class="card-header text-center">Riverview Cellars Estate Winery</div>
+					<div class="card-body">
+						<ul>
+							<li>Winery in <strong>Niagara-On-The-Lake, Ontairo</strong></li>
+							<li>Developed system for shipping pricing within Canada</li>
+							<li>Used Wordpress, PHP</li>
+							<li>Other Duties Include:
+								<ul>
+									<li>Website Admin</li>
+									<li>Customer Service (Wine Tours & Taskings)</li>
+									<li>Data Entry</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center">Associate</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab-pane fade" id="edu">
+		<div class="jumbotron text-center jumbotron-fluid" style="margin-bottom:0">
+			<div class= "container">
+				<h1>My Education</h1>
+				<p>Post-Secondary & certifications</p> 
+			</div>
+		</div>
+		<div class="container" style="margin-top:30px">
+			<!-- Tab panes -->
+			<div class="card-columns">
+				<div class="card">
+					<div class="card-header text-center">Concordia University, Montreal QC (B.Eng)</div>
+					<div class="card-body">2016-Present<br><em>Ongoing Degree</em><br>To Be Completed 2022</div>
+					<div class="card-footer text-center">Baccalaureate Software Engineering</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane fade" id="pro">
+		<div class="jumbotron text-center jumbotron-fluid" style="margin-bottom:0">
+			<div class= "container">
+				<h1>Special Projects</h1>
+				<p>Software projects in which I have been involved</p> 
+			</div>
+		</div>
+		<div class="container" style="margin-top:30px">
+			<!-- Tab panes -->
+			<div class="card-columns">
+				<div class="card">
+					<div class="card-header text-center">Header</div>
+					<div class="card-body">
 	
-	
-	
+					</div>
+					<div class="card-footer text-center">Footer</div>
+				</div>
+			</div>
+			<p></p>
+		</div>
+	</div>
+</div>
+
+	<div class="jumbotron jumbotron-fluid text-center" style="margin-bottom:0">
+		<div class="container">
+		<sub>Made Using HTML, CSS, Bootstrap 4 & Hosted on GitHub Pages</sub>
+		</div class>
+	</div>
+
 </body>
 </html>
