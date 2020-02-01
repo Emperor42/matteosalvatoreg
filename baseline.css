@@ -30,3 +30,12 @@ body{
 	color:cornflowerblue;
 	scale:2;
 }
+
+table{
+	table-layout:fixed;
+	text-align:left;
+}
+
+tr td a {
+	display:block;
+}
