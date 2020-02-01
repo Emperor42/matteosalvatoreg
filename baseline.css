@@ -1,9 +1,5 @@
 body{
 	background-color:grey;
-	margin-top: 0px;
-  	margin-bottom: 0px;
-  	margin-right: 0px;
-  	margin-left: 0px;
 }
 
 .nav{
@@ -11,10 +7,21 @@ body{
 	color: whitesmoke;
 }
 
-.nav-item{
+.nav-link{
 	color: whitesmoke
 }
 
-.nav-item:hover{
+.nav-link:hover{
 	color: cornflowerblue;
+}
+
+.card:hover .card-header{
+	background-color: cornflowerblue;
+	color:whitesmoke;
+}
+
+.card:hover{
+	z-index: 1;
+	scale: 1.1;
+	border: 5px solid black;
 }
