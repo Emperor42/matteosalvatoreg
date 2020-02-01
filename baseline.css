@@ -25,3 +25,8 @@ body{
 	scale: 1.1;
 	border: 5px solid black;
 }
+
+.icon {
+	color:cornflowerblue;
+	scale:2;
+}
