@@ -23,7 +23,7 @@ async function fetchTemplate(dir, target) {
         class extends HTMLElement {
             constructor() {
             super();
-            const template = templates.content.querySelector("#veni");
+            const template = templates.content.querySelector("#veni").content;
             const shadowRoot = this.attachShadow({ mode: "open" }).appendChild(
                 template.cloneNode(true)
             );
