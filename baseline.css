@@ -48,6 +48,8 @@ article {
 	box-shadow: 0.5rem 0.5rem 0.25rem black;
 	border-radius:1rem;
 	padding:1rem;
+	margin: 1rem;
+	max-width: 20%;
 }
 
 article header{
@@ -83,7 +85,7 @@ body header {
 
 body footer {
 	width:100%;
-	text-align:justify;
+	text-align:center;
 	background-color: darkgray;
 }
 
