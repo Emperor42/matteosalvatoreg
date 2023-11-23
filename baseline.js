@@ -7,7 +7,7 @@
  * If using the VENI system directly this function will be called by the server on rendering to find any and all custom elements 
  * If this function fails the page will simply have the text for the given elements listed
  */
-void async function fetchTemplate (dir, target) {
+async function fetchTemplate(dir, target) {
     //get the imported document in templates:
     var templates = document.createElement( "template" );
     var htmlFileName = target+".html";
@@ -30,19 +30,19 @@ void async function fetchTemplate (dir, target) {
         }
     );
 }
+
 /**
  * @author Matthew Salvatore Giancola -> Emperor42, matthew.giancola42@gmail.com
  * @description The init function for the website, here I describe the different components avaliable.
  */
-void function init() {
-    Promise.all(
-        fetchTemplate("/", "msg-footer"),
-        fetchTemplate("/", "msg-skills"),
-        fetchTemplate("/", "msg-summary"),
-        fetchTemplate("/", "msg-education"),
-        fetchTemplate("/", ",msg-projects")
-    );
+function init(e) {
+    console.info("Running init");
+    console.info(e);
+    fetchTemplate(null, "msg-footer"),
+    fetchTemplate(null, "msg-skills"),
+    fetchTemplate(null, "msg-summary"),
+    fetchTemplate(null, "msg-education"),
+    fetchTemplate(null, "msg-projects")
 }
 
-//FROM VENI
-init();
+document.addEventListener("DOMContentLoaded", init, false);
