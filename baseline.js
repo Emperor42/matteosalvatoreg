@@ -38,12 +38,12 @@ async function fetchTemplate(dir, target) {
 function init(e) {
     console.info("Running init");
     console.info(e);
-    Promise.all(
+    Promise.all([
         fetchTemplate(null, "msg-footer"),
         fetchTemplate(null, "msg-skills"),
         fetchTemplate(null, "msg-summary"),
         fetchTemplate(null, "msg-education"),
-        fetchTemplate(null, "msg-projects")
+        fetchTemplate(null, "msg-projects")]
     );
 }
 
