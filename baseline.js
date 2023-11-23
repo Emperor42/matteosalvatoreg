@@ -38,11 +38,13 @@ async function fetchTemplate(dir, target) {
 function init(e) {
     console.info("Running init");
     console.info(e);
-    fetchTemplate(null, "msg-footer"),
-    fetchTemplate(null, "msg-skills"),
-    fetchTemplate(null, "msg-summary"),
-    fetchTemplate(null, "msg-education"),
-    fetchTemplate(null, "msg-projects")
+    Promise.all(
+        fetchTemplate(null, "msg-footer"),
+        fetchTemplate(null, "msg-skills"),
+        fetchTemplate(null, "msg-summary"),
+        fetchTemplate(null, "msg-education"),
+        fetchTemplate(null, "msg-projects")
+    );
 }
 
 document.addEventListener("DOMContentLoaded", init, false);
