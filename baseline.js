@@ -29,7 +29,6 @@ async function fetchTemplate(dir, target) {
             }
         }
     );
-    console.info(customEleemnts);
 }
 
 /**
