@@ -45,11 +45,12 @@ tr td a {
 article {
 	background-color: white;
 	border: 1px solid black;
-	box-shadow: 0.5rem 0.5rem 0.25rem black;
+	box-shadow: 0.25rem 0.25rem 0.125rem darkgrey;
 	border-radius:1rem;
 	padding:0;
 	margin: 1rem;
 	max-width: 20%;
+	height: fit-content;
 }
 
 article header{
