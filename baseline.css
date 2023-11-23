@@ -80,8 +80,13 @@ section {
 
 nav {
 	background-color: black;
-	color: white;
-	position: fixed;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  top: 0;
 }
  nav :hover {
 	background-color: whitesmoke;
@@ -89,5 +94,9 @@ nav {
  }
 
  nav a {
-	display:block;
+	display: block;
+	padding: 1rem;
+	float: left;
+	text-decoration:none;
+	color:white;
  }
