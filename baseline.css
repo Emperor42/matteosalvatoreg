@@ -67,7 +67,6 @@ article p {
 article footer{
 	background-color: grey;
 	text-align:center;
-	width:100%;
 	border-radius: 0 0 1rem 1rem;
 	padding: 1rem;
 }
@@ -103,6 +102,8 @@ section {
 div {
 	display:flex;
 	flex-wrap: wrap;
+	flex-basis: fit-content;
+	flex-shrink:2;
 }
 
 nav {
