@@ -15,7 +15,7 @@ async function fetchTemplate(dir, target) {
         htmlFileName = dir+htmlFileName;
     }
     templates.innerHTML = await ( await fetch( htmlFileName ) ).text();
-
+    console.info(htmlFileName);
     //create the custom element
     customElements.define(
         target,
