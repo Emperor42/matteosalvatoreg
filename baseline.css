@@ -45,15 +45,23 @@ tr td a {
 article {
 	background-color: white;
 	border: 1px solid black;
-	box-shadow: 10px 10px 5px black;
+	box-shadow: 0.5rem 0.5rem 0.25rem black;
+	border-radius:1rem;
+	padding:1rem;
 }
 
 article header{
 	background-color: lightskyblue;
+	text-align:center;
+}
+
+article p {
+	color:black;
 }
 
 article footer{
 	background-color: grey;
+	text-align:center;
 }
 
 body{
@@ -80,9 +88,12 @@ body footer {
 }
 
 section {
-	display:flex;
 	margin: 1rem;
 	padding:1rem;
+}
+
+div {
+	display:flex;
 }
 
 nav {
