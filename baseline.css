@@ -114,6 +114,9 @@ background-color: black;
 	display: block;
 	padding: 1rem;
 	float: left;
-	text-decoration:none;
 	color:white;
+ }
+
+ a {
+	text-decoration:none;
  }
