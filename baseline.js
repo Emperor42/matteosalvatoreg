@@ -9,13 +9,14 @@
  */
 async function fetchTemplate(dir, target) {
     //get the imported document in templates:
-    var templates = document.createElement( "template" );
+    var templates = document.createElement( "div" );
     var htmlFileName = target+".html";
     if(dir){
         htmlFileName = dir+htmlFileName;
     }
     templates.innerHTML = await ( await fetch( htmlFileName ) ).text();
     console.info(htmlFileName);
+    console.info(templates.innerHTML);
     //create the custom element
     customElements.define(
         target,
