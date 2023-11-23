@@ -124,6 +124,9 @@ background-color: black;
 	float: left;
 	color:white;
  }
+ body footer a {
+	color: black;
+ }
 
  a {
 	text-decoration:none;
