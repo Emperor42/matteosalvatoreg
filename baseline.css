@@ -57,7 +57,7 @@ article footer{
 }
 
 body{
-	background-color: lightgray;
+background-color: lightgray;
   margin: 0;
   padding: 0;
   border: 0;
@@ -81,6 +81,8 @@ body footer {
 
 section {
 	display:flex;
+	margin: 1rem;
+	padding:1rem;
 }
 
 nav {
