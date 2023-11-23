@@ -44,6 +44,7 @@ function init(e) {
         fetchTemplate(null, "msg-skills"),
         fetchTemplate(null, "msg-summary"),
         fetchTemplate(null, "msg-education"),
+        fetchTemplate(null, "msg-experiance"),
         fetchTemplate(null, "msg-projects")]
     );
 }
