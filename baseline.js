@@ -9,7 +9,7 @@
  */
 async function fetchTemplate(dir, target) {
     //get the imported document in templates:
-    var templates = document.createElement( "div" );
+    var templates = document.createElement( "template" );
     var htmlFileName = target+".html";
     if(dir){
         htmlFileName = dir+htmlFileName;
@@ -23,7 +23,7 @@ async function fetchTemplate(dir, target) {
         class extends HTMLElement {
             constructor() {
             super();
-            const template = templates.content;
+            const template = templates.content.querySelector("#veni");
             const shadowRoot = this.attachShadow({ mode: "open" }).appendChild(
                 template.cloneNode(true)
             );
