@@ -44,6 +44,7 @@ tr td a {
 
 article {
 	background-color: white;
+	border: 1px solid black;
 	box-shadow: 10px 10px 5px black;
 }
 
@@ -83,7 +84,7 @@ section {
 }
 
 nav {
-	background-color: black;
+background-color: black;
   color: white;
   position: absolute;
   width: 100%;
