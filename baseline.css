@@ -126,9 +126,26 @@ background-color: black;
  nav a {
 	display: block;
 	padding: 1rem;
-	float: left;
 	color:white;
  }
+ nav span {
+	margin: 0;
+	padding:0;
+	border:0;
+ }
+
+ .left a {
+	float: left;
+ }
+
+ .centre a {
+	float:none;
+ }
+
+ .right a {
+	float:right;
+ }
+
  body footer a {
 	color: black;
 	font-size: xxx-large;
