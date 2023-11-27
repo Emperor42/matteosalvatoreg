@@ -109,10 +109,11 @@ div {
 	flex-wrap: wrap;
 	flex-basis: fit-content;
 	flex-shrink:2;
+	align-items: center;
 }
 
 nav {
-background-color: black;
+  background-color: black;
   color: white;
   position: fixed;
   width: 100%;
