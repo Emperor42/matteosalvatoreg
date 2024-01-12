@@ -247,3 +247,9 @@ nav {
 	background-color: white;
 	border: solid black;
 }
+
+/*Header info*/
+header {
+	text-align: center;
+	background-color: cornflowerblue;
+}
