@@ -79,18 +79,18 @@ background-color: lightgray;
   padding: 0;
   border: 0;
 }
-body section {
+section {
 	background-color: white;
 }
 
-body header {
+header {
 	width: 100%;
 	background-color: lightblue;
 	text-align: center;
 	padding: 2rem;
 }
 
-body footer {
+footer {
 	width:100%;
 	text-align:center;
 	background-color: darkgray;
