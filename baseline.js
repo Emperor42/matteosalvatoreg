@@ -42,6 +42,10 @@ function init(e) {
     console.info(e);
     Promise.all([
         fetchTemplate(null, "msg-footer"),
+        fetchTemplate(null, "msg-header"),
+        fetchTemplate(null, "msg-page"),
+        fetchTemplate(null, "msg-post"),
+        fetchTemplate(null, "msg-home"),
         fetchTemplate(null, "msg-skills"),
         fetchTemplate(null, "msg-summary"),
         fetchTemplate(null, "msg-education"),

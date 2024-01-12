@@ -153,3 +153,97 @@ nav {
  a {
 	text-decoration:none;
  }
+
+ /*Flex on styling for multiple items*/
+ section div article {
+	flex: 3;
+ }
+
+ section div aside {
+	flex: 1;
+ }
+
+ /*Base image classes to be used here*/
+ .a-image{
+ 	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("img.png");
+	max-width: 10rem;
+	max-height:10rem;
+	width:10rem;
+	height:10rem;
+	color:transparent;
+    font-size:0;
+}
+
+.b-image{
+	background-image: linear-gradient(rgba(255, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("img.png");
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+	color:transparent;
+    font-size:0;
+}
+
+.c-image{
+	background-image: linear-gradient(rgba(0, 255, 0, 0.5), rgba(255, 255, 0, 0.5)),url("img.png");
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+	color:transparent;
+    font-size:0;
+}
+
+.d-image{
+	background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5)),url("img.png");
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+	color:transparent;
+    font-size:0;
+}
+
+.a-image:hover{
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+	color:black;
+    font-size:16;
+	background-color: white;
+	border: solid black;
+}
+
+.b-image:hover{
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+    color:black;
+	font-size:16;
+	background-color: white;
+	border: solid black;
+}
+
+.c-image:hover{
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+	color:black;
+    font-size:16;
+	background-color: white;
+	border: solid black;
+}
+
+.d-image:hover{
+    max-width: 10rem;
+    max-height:10rem;
+    width:10rem;
+    height:10rem;
+    color:black;
+	font-size:16;
+	background-color: white;
+	border: solid black;
+}

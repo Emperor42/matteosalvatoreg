@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="baseline.css">
+    </head>
+    <body>
+        <template id="msg-home">
+            <style> @import "baseline.css"; </style>
+            <header>
+                <slot name="header-title">Header Title</slot>
+                <slot name="header-content">Header Content</slot>
+            </header>
+            <slot name="page-content"></slot>
+        </template>
+    </body>
+</html>

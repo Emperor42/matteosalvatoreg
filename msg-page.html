@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="baseline.css">
+    </head>
+    <body>
+        <template id="blank">
+            <style> @import "baseline.css"; </style>
+            <h1>
+                <slot name="page-title"></slot>
+            </h1>
+            <section>
+                <div>
+                    <article>
+                        <slot name="page-content"></slot>
+                    </article>
+                    <aside>
+                        <slot name="page-side"></slot>
+                    </aside>
+                </div>
+            </section>
+        </template>
+    </body>
+</html>
