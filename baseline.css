@@ -213,6 +213,9 @@ nav {
     font-size:16;
 	background-color: white;
 	border: solid black;
+	background-image: none;
+	align-items: center;
+	justify-content: center;
 }
 
 .b-image:hover{
@@ -224,6 +227,9 @@ nav {
 	font-size:16;
 	background-color: white;
 	border: solid black;
+	background-image: none;
+	align-items: center;
+    justify-content: center;
 }
 
 .c-image:hover{
@@ -235,6 +241,9 @@ nav {
     font-size:16;
 	background-color: white;
 	border: solid black;
+	background-image: none;
+	align-items: center;
+    justify-content: center;
 }
 
 .d-image:hover{
@@ -246,6 +255,9 @@ nav {
 	font-size:16;
 	background-color: white;
 	border: solid black;
+	background-image: none;
+	align-items: center;
+    justify-content: center;
 }
 
 /*Header info*/
