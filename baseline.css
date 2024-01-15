@@ -70,8 +70,7 @@ section {
 div {
 	display:flex;
 	flex-wrap: wrap;
-	flex-basis: fit-content;
-	flex-shrink:2;
+	flex-basis: auto;
 	align-items: center;
 }
 
