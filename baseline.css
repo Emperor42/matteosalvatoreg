@@ -53,7 +53,6 @@ body{
   max-height: fit-content;
 }
 
-
 section {
 	background-color: white;
 }
@@ -171,4 +170,9 @@ header {
 	font-size: 2em;
 	max-width: 16rem;
 	max-height: 16rem;
+}
+
+.bottom-of-page {
+	margin-top: auto;
+	margin-bottom: 0%;
 }
