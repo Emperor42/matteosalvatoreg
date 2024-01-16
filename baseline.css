@@ -166,4 +166,6 @@ header {
 .section-padding{
 	padding: 5rem;
 	font-size: 3em;
+	max-width: 20rem;
+	max-height: 20rem;
 }
