@@ -67,7 +67,7 @@ footer {
 	text-align:center;
 	background-color: darkgray;
 	padding: 2rem;
-	padding-bottom: 100%;
+	height: 100%;
 }
 
 section {
@@ -164,8 +164,8 @@ header {
 }
 
 .section-padding{
-	padding: 5rem;
-	font-size: 3em;
-	max-width: 20rem;
-	max-height: 20rem;
+	padding: 2rem;
+	font-size: 2em;
+	max-width: 10rem;
+	max-height: 10rem;
 }
