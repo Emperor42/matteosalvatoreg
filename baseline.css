@@ -173,6 +173,7 @@ header {
 }
 
 .bottom-of-page {
-	margin-top: auto;
-	margin-bottom: 0%;
+	height:fit-content;
+	position: absolute;
+	bottom:0px;
 }
