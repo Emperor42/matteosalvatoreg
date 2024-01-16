@@ -44,14 +44,20 @@ article footer{
 }
 
 body{
-background-color: lightgray;
+  background-color: lightgray;
   margin: 0;
   padding: 0;
   border: 0;
   max-width: 100%;
-width: 100%;
-max-height: fit-content;
+  width: 100%;
+  max-height: fit-content;
+  /*Added to cover footer*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+
 section {
 	background-color: white;
 }
@@ -126,6 +132,7 @@ nav {
  body footer a {
 	color: black;
 	font-size: xxx-large;
+	margin-top: auto;
  }
 
  a {
