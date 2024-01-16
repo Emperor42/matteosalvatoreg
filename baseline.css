@@ -2,6 +2,12 @@
 	border: 1px solid cornflowerblue;
 }
 */
+
+*{
+	justify-content: center;
+	text-align: center;
+}
+
 article {
 	background-color: white;
 	border: 1px solid black;
