@@ -126,6 +126,10 @@ nav {
 	color: black;
  }
 
+ h1 {
+	margin-top: 5rem;
+ }
+
  footer a {
 	color: cornflowerblue;
  }
