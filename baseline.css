@@ -51,10 +51,6 @@ body{
   max-width: 100%;
   width: 100%;
   max-height: fit-content;
-  /*Added to cover footer*/
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 
@@ -132,7 +128,6 @@ nav {
  body footer a {
 	color: black;
 	font-size: xxx-large;
-	margin-top: auto;
  }
 
  a {
