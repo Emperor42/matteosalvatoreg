@@ -162,6 +162,7 @@ header {
 	background-color: cornflowerblue;
 }
 
-.section-padding a section{
+.section-padding{
 	padding: 5rem;
+	font-size: 3em;
 }
