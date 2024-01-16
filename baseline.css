@@ -50,7 +50,7 @@ background-color: lightgray;
   border: 0;
   max-width: 100%;
 width: 100%;
-max-height: max-content;
+max-height: fit-content;
 }
 section {
 	background-color: white;
