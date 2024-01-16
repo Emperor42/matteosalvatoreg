@@ -112,6 +112,10 @@ nav {
 	border:0;
  }
 
+ div span a section{
+	padding: 5rem;
+}
+
  .left a {
 	float: left;
  }
