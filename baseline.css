@@ -111,9 +111,7 @@ nav {
 	border:0;
  }
 
- div span a section{
-	padding: 5rem;
-}
+
 
  .left a {
 	float: left;
@@ -162,4 +160,8 @@ nav {
 header {
 	text-align: center;
 	background-color: cornflowerblue;
+}
+
+.section-padding a section{
+	padding: 5rem;
 }
