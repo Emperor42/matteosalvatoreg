@@ -116,6 +116,14 @@ nav {
 	text-decoration:none;
  }
 
+ footer a {
+	color: cornflowerblue;
+ }
+
+ nav a {
+	color: white;
+ }
+
  /*Flex on styling for multiple items*/
  section div article {
 	flex: 3;
