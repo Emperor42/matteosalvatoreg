@@ -49,6 +49,7 @@ background-color: lightgray;
   border: 0;
   max-width: 100%;
 	width: 100%;
+	font-family: 'Courier New', monospace;
 }
 section {
 	background-color: white;
