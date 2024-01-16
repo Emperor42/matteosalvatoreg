@@ -72,6 +72,9 @@ div {
 	flex-wrap: wrap;
 	flex-basis: auto;
 	align-items: center;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
 }
 
 nav {
