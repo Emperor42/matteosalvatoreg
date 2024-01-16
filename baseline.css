@@ -171,9 +171,3 @@ header {
 	max-width: 16rem;
 	max-height: 16rem;
 }
-
-.bottom-of-page {
-	height:fit-content;
-	position: absolute;
-	bottom:0px;
-}
