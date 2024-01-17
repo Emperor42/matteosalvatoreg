@@ -98,7 +98,7 @@ nav {
   margin: 0;
   border: 0;
 }
- nav span a :hover {
+ nav a:hover {
 	background-color: whitesmoke;
 	color: black;
  }
@@ -112,16 +112,6 @@ nav {
 	margin: 0;
 	padding:0;
 	border:0;
- }
-
-
-
- .left a {
-	float: left;
- }
-
- .right a {
-	float:right;
  }
 
  body footer a {
