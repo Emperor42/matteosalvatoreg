@@ -8,29 +8,25 @@
     </head>
     <body>
         <template id="veni">
-            <br/>
             <style> @import "baseline.css"; </style>
             <style> @import "fa-main.css"; </style>
             <style> @import "fa-v4-font-face.css"; </style>
             <style> @import "fa-v4-shims.css"; </style>
             <style> @import "fa-v5-font-face.css"; </style>
-            <section class="no-shadow ">
-                <br/>
-                <h1>
-                    <slot name="page-title"></slot>
-                </h1>
-                <br/>
-                <section>
-                    <div>
-                        <article>
-                            <slot name="page-content"></slot>
-                        </article>
-                        <aside>
-                            <slot name="page-side"></slot>
-                        </aside>
-                    </div>
-                </section>
-                <br/>
+            <br/>
+            <h1>
+                <slot name="page-title"></slot>
+            </h1>
+            <br/>
+            <section>
+                <div>
+                    <article>
+                        <slot name="page-content"></slot>
+                    </article>
+                    <aside>
+                        <slot name="page-side"></slot>
+                    </aside>
+                </div>
             </section>
             <br/>
         </template>

@@ -14,16 +14,12 @@
             <style> @import "fa-v4-shims.css"; </style>
             <style> @import "fa-v5-font-face.css"; </style>
             <br/>
-            <section class="no-shadow">
-                <br/>
-                <h1>
-                    <slot name="page-title"></slot>
-                </h1>
-                <br/>
-                <section>
-                    <slot name="page-content"></slot>
-                </section>
-                <br/>
+            <h1>
+                <slot name="page-title"></slot>
+            </h1>
+            <br/>
+            <section>
+                <slot name="page-content"></slot>
             </section>
             <br/>
         </template>

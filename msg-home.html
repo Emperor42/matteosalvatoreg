@@ -10,24 +10,20 @@
     <body>
         <template id="veni">
             <br/>
-            <section class="no-shadow">
-                <br/>
-                <style> @import "baseline.css"; </style>
-                <style> @import "fa-main.css"; </style>
-                <style> @import "fa-v4-font-face.css"; </style>
-                <style> @import "fa-v4-shims.css"; </style>
-                <style> @import "fa-v5-font-face.css"; </style>
-                <header>
-                    <slot name="header-title">Header Title</slot>
-                    <slot name="header-content">Header Content</slot>
-                </header>
-                <slot name="headline-content"></slot>
-                <br/>
-                <h4><slot name="content-title">~~~~~~~~~~~~~</slot></h4>
-                <br/>
-                <slot name="page-content"></slot>
-                <br/>
-            </section>
+            <style> @import "baseline.css"; </style>
+            <style> @import "fa-main.css"; </style>
+            <style> @import "fa-v4-font-face.css"; </style>
+            <style> @import "fa-v4-shims.css"; </style>
+            <style> @import "fa-v5-font-face.css"; </style>
+            <header>
+                <slot name="header-title">Header Title</slot>
+                <slot name="header-content">Header Content</slot>
+            </header>
+            <slot name="headline-content"></slot>
+            <br/>
+            <h4><slot name="content-title">~~~~~~~~~~~~~</slot></h4>
+            <br/>
+            <slot name="page-content"></slot>
             <br/>
         </template>
     </body>
