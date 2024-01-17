@@ -145,7 +145,7 @@ nav {
 	flex: 1;
  }
 
- section:hover section a i {
+ a:hover section {
 	color: cornflowerblue;
  }
 
