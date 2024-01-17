@@ -171,3 +171,7 @@ header {
 	max-width: 16rem;
 	max-height: 16rem;
 }
+
+summary {
+	display: block;
+}
