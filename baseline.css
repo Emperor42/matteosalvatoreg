@@ -167,3 +167,6 @@ header {
 summary {
 	display: block;
 }
+summary:hover {
+	color: cornflowerblue;
+}
