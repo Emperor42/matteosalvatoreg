@@ -61,14 +61,14 @@ header {
 	width: 100%;
 	background-color: lightblue;
 	text-align: center;
-	padding: 1rem;
+	padding: 2rem;
 }
 
 footer {
 	width:100%;
 	text-align:center;
 	background-color: darkgray;
-	padding: 1rem;
+	padding: 2rem;
 	height: 100%;
 }
 
@@ -77,6 +77,10 @@ section {
 	padding:1rem;
 	box-shadow: 0.5rem 0.5rem 0.25rem black;
 	text-align: center;
+}
+
+.no-shadow {
+	box-shadow: none;
 }
 
 div {
