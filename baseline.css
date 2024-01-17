@@ -98,7 +98,7 @@ nav {
   margin: 0;
   border: 0;
 }
- nav :hover {
+ nav :hover a {
 	background-color: whitesmoke;
 	color: black;
  }
