@@ -170,3 +170,7 @@ summary {
 summary:hover {
 	color: cornflowerblue;
 }
+
+ul {
+	ist-style-type: none
+}
