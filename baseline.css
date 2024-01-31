@@ -172,5 +172,6 @@ summary:hover {
 }
 
 ul {
-	ist-style-type: none
+	ist-style-type: none;
+	padding:1rem;
 }
